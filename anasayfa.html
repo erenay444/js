@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="anasayfa.css">
+</head>
+
+<body>
+    <h1>Quiz Soruları</h1>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="answers">
+                <button class="answer" onclick="checkAnswer(0)"></button>
+                <button class="answer" onclick="checkAnswer(1)"></button>
+                <button class="answer" onclick="checkAnswer(2)"></button>
+                <button class="answer" onclick="checkAnswer(3)"></button>
+                <button class="answer" onclick="checkAnswer(4)"></button>
+            </div>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Quiz Sonucu</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+
+
+
+    <script src="anasayfa.js"></script>
+</body>
+
+</html>

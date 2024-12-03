@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body {
+background-image: url(gastation.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight: bold;
+}
+
+h1 {
+    position:absolute;
+    top: 250px;
+    border-radius: 15px;
+    border:1px solid green;
+    background:greenyellow;
+    padding: 10px;
+}
+
+#quiz-container {
+    background-color:White;
+    border-radius:10px;
+    padding: 20px;
+    box-shadow: 0 0 50px rgb(255, 255, 255, 1);
+}
+
+
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button.answer {
+
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+button.correct {
+    background-color: green;
+}
+
+button.incorrect {
+    background-color:red; 
+} 
+
+
+#result {
+    text-align: center;
+}
+
+
+.hidden {
+    display: none;
+}
